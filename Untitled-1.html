@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elmer Electronics</title>
+    <style>
+         body{
+            background-color: whitesmoke;
+        }
+        header{
+            background-color:lightgreen;
+            font-size: large;
+            text-align: center;
+            size: 50px;
+        }
+        .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+.gallery{
+    flex: 1 1 calc(33.333% - 20px);
+    margin: 10px;
+    overflow: hidden;
+}
+.gallery img{
+    width: 100%;
+    height: 450px;
+    display: block;
+    transition: transform 0.3s;
+}
+.gallery:hover img{
+    transform: scale(1.05);
+}
+.desc{
+   align-items: center;
+   
+}
+    </style>
+
+</head>
+<body>
+    <header>Computers and Laptops</header>
+    
+    <div class="container">
+        <div class="gallery">
+            <img src="https://i.pinimg.com/564x/1b/3c/3d/1b3c3df7c0ec048fb129384d4858a8ba.jpg">
+            <div class="desc"> Apple Desktop<br> price:ksh 61200</div>
+        </div>
+
+        <div class="gallery">
+            <img src="https://i.pinimg.com/564x/eb/c8/4a/ebc84abe9fc48fa3058a07d655890979.jpg">
+            <div class="desc">Apple Macbook<br> price:ksh 45000</div>
+        </div>
+
+        <div class="gallery">
+            <img src="https://i.pinimg.com/564x/1b/9b/24/1b9b243beef8cfb68bc7117a889eb991.jpg">
+            <div class="desc">HP laptop<br> price:ksh 21490</div>
+        </div>
+        <div class="gallery">
+            <img src="https://i.pinimg.com/564x/25/15/06/251506da43c1e97a1f07dc2a48fd4aad.jpg">
+            <div class="desc">HUAWEI laptop<br> price:ksh 23450</div>
+        </div>
+
+        <div class="gallery">
+            <img src="https://i.pinimg.com/564x/43/e8/5b/43e85b91359dc50fd44f174dcac943d1.jpg">
+            <div class="desc">Touch-screen All In One Intel Core i7<br> price:ksh 52300</div>
+        </div>
+
+        <div class="gallery">
+            <img src="https://i.pinimg.com/564x/26/31/16/263116ff7f3d5af1e08a47f4a8231a73.jpg">
+            <div class="desc">Dell optiplex<br> price:ksh 80500</div>
+        </div>
+
+         
+    </div>
+
+
+</body>
+</html>
